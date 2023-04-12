@@ -16,14 +16,14 @@ class CalculatorTests {
     @DisplayName("Should return the sum of two added integers")
     void shouldReturnTheSumOfTwoAddedIntegers() {
         // given
-        int firstNumber = 2;
+        int firstNumber = 3;
         int secondNumber = 3;
 
         // when
         int result = calc.add(firstNumber,secondNumber);
 
         // then
-        Assertions.assertEquals(5,result);
+        Assertions.assertEquals(6,result);
     }
 
     @Test
