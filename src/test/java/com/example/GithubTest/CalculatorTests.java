@@ -17,7 +17,7 @@ class CalculatorTests {
     void shouldReturnTheSumOfTwoAddedIntegers() {
         // given
         int firstNumber = 3;
-        int secondNumber = 3;
+        int secondNumber = 2;
 
         // when
         int result = calc.add(firstNumber,secondNumber);
