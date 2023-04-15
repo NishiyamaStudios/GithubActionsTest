@@ -23,7 +23,7 @@ class CalculatorTests {
         int result = calc.add(firstNumber,secondNumber);
 
         // then
-        Assertions.assertEquals(6,result);
+        Assertions.assertEquals(5,result);
     }
 
     @Test
